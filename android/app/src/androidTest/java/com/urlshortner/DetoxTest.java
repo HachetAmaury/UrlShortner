@@ -1,6 +1,6 @@
 //  // For detox tests
 
-package com.reactnativecliboilerplate;
+package com.urlshortner;
 
 import com.wix.detox.Detox;
 import com.wix.detox.config.DetoxConfig;

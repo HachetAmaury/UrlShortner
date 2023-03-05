@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactNativeCliBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeCliBoilerplateTests.m */; };
+		00E356F31AD99517003FC87E /* UrlShortnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* UrlShortnerTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		4BBC23FF2867342CDB9FC1C3 /* libPods-ReactNativeCliBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A51490726956FBAC67C43E46 /* libPods-ReactNativeCliBoilerplate.a */; };
+		4BBC23FF2867342CDB9FC1C3 /* libPods-UrlShortner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A51490726956FBAC67C43E46 /* libPods-UrlShortner.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A8287AE1E6248D2BEE94AE41 /* libPods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BCFCA89BF067E251C59143 /* libPods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.a */; };
+		A8287AE1E6248D2BEE94AE41 /* libPods-UrlShortner-UrlShortnerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BCFCA89BF067E251C59143 /* libPods-UrlShortner-UrlShortnerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeCliBoilerplate;
+			remoteInfo = UrlShortner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ReactNativeCliBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeCliBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* UrlShortnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlShortnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeCliBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeCliBoilerplateTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeCliBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeCliBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeCliBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactNativeCliBoilerplate/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeCliBoilerplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeCliBoilerplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeCliBoilerplate/main.m; sourceTree = "<group>"; };
-		1DFD31174313B4348865704C /* Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D5D8F697A0F4EE4321CC9B6 /* Pods-ReactNativeCliBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCliBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
-		6F99EB630628A3E8CF3BDA62 /* Pods-ReactNativeCliBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCliBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
-		71BCFCA89BF067E251C59143 /* libPods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeCliBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A51490726956FBAC67C43E46 /* libPods-ReactNativeCliBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCliBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADE9719A1F33E9406A6C0D76 /* Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* UrlShortnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrlShortnerTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* UrlShortner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrlShortner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UrlShortner/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = UrlShortner/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = UrlShortner/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = UrlShortner/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UrlShortner/main.m; sourceTree = "<group>"; };
+		1DFD31174313B4348865704C /* Pods-UrlShortner-UrlShortnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrlShortner-UrlShortnerTests.debug.xcconfig"; path = "Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5D8F697A0F4EE4321CC9B6 /* Pods-UrlShortner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrlShortner.debug.xcconfig"; path = "Target Support Files/Pods-UrlShortner/Pods-UrlShortner.debug.xcconfig"; sourceTree = "<group>"; };
+		6F99EB630628A3E8CF3BDA62 /* Pods-UrlShortner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrlShortner.release.xcconfig"; path = "Target Support Files/Pods-UrlShortner/Pods-UrlShortner.release.xcconfig"; sourceTree = "<group>"; };
+		71BCFCA89BF067E251C59143 /* libPods-UrlShortner-UrlShortnerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UrlShortner-UrlShortnerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = UrlShortner/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A51490726956FBAC67C43E46 /* libPods-UrlShortner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UrlShortner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE9719A1F33E9406A6C0D76 /* Pods-UrlShortner-UrlShortnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrlShortner-UrlShortnerTests.release.xcconfig"; path = "Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8287AE1E6248D2BEE94AE41 /* libPods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.a in Frameworks */,
+				A8287AE1E6248D2BEE94AE41 /* libPods-UrlShortner-UrlShortnerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BBC23FF2867342CDB9FC1C3 /* libPods-ReactNativeCliBoilerplate.a in Frameworks */,
+				4BBC23FF2867342CDB9FC1C3 /* libPods-UrlShortner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactNativeCliBoilerplateTests */ = {
+		00E356EF1AD99517003FC87E /* UrlShortnerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeCliBoilerplateTests.m */,
+				00E356F21AD99517003FC87E /* UrlShortnerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeCliBoilerplateTests;
+			path = UrlShortnerTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeCliBoilerplate */ = {
+		13B07FAE1A68108700A75B9A /* UrlShortner */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReactNativeCliBoilerplate;
+			name = UrlShortner;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				A51490726956FBAC67C43E46 /* libPods-ReactNativeCliBoilerplate.a */,
-				71BCFCA89BF067E251C59143 /* libPods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.a */,
+				A51490726956FBAC67C43E46 /* libPods-UrlShortner.a */,
+				71BCFCA89BF067E251C59143 /* libPods-UrlShortner-UrlShortnerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReactNativeCliBoilerplate */,
+				13B07FAE1A68108700A75B9A /* UrlShortner */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeCliBoilerplateTests */,
+				00E356EF1AD99517003FC87E /* UrlShortnerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeCliBoilerplate.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeCliBoilerplateTests.xctest */,
+				13B07F961A680F5B00A75B9A /* UrlShortner.app */,
+				00E356EE1AD99517003FC87E /* UrlShortnerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D5D8F697A0F4EE4321CC9B6 /* Pods-ReactNativeCliBoilerplate.debug.xcconfig */,
-				6F99EB630628A3E8CF3BDA62 /* Pods-ReactNativeCliBoilerplate.release.xcconfig */,
-				1DFD31174313B4348865704C /* Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.debug.xcconfig */,
-				ADE9719A1F33E9406A6C0D76 /* Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.release.xcconfig */,
+				3D5D8F697A0F4EE4321CC9B6 /* Pods-UrlShortner.debug.xcconfig */,
+				6F99EB630628A3E8CF3BDA62 /* Pods-UrlShortner.release.xcconfig */,
+				1DFD31174313B4348865704C /* Pods-UrlShortner-UrlShortnerTests.debug.xcconfig */,
+				ADE9719A1F33E9406A6C0D76 /* Pods-UrlShortner-UrlShortnerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeCliBoilerplateTests */ = {
+		00E356ED1AD99517003FC87E /* UrlShortnerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeCliBoilerplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "UrlShortnerTests" */;
 			buildPhases = (
 				F4CCCA246CE43530FCF69A6B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeCliBoilerplateTests;
-			productName = ReactNativeCliBoilerplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeCliBoilerplateTests.xctest */;
+			name = UrlShortnerTests;
+			productName = UrlShortnerTests;
+			productReference = 00E356EE1AD99517003FC87E /* UrlShortnerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeCliBoilerplate */ = {
+		13B07F861A680F5B00A75B9A /* UrlShortner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeCliBoilerplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "UrlShortner" */;
 			buildPhases = (
 				4AE6D353C32C3B898B1B6292 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeCliBoilerplate;
-			productName = ReactNativeCliBoilerplate;
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeCliBoilerplate.app */;
+			name = UrlShortner;
+			productName = UrlShortner;
+			productReference = 13B07F961A680F5B00A75B9A /* UrlShortner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeCliBoilerplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "UrlShortner" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeCliBoilerplate */,
-				00E356ED1AD99517003FC87E /* ReactNativeCliBoilerplateTests */,
+				13B07F861A680F5B00A75B9A /* UrlShortner */,
+				00E356ED1AD99517003FC87E /* UrlShortnerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,15 +272,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner/Pods-UrlShortner-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner/Pods-UrlShortner-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrlShortner/Pods-UrlShortner-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4AE6D353C32C3B898B1B6292 /* [CP] Check Pods Manifest.lock */ = {
@@ -298,7 +298,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCliBoilerplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-UrlShortner-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -311,15 +311,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7CB041BC71872866D2044AF8 /* [CP] Copy Pods Resources */ = {
@@ -328,15 +328,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrlShortner-UrlShortnerTests/Pods-UrlShortner-UrlShortnerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B1A03DE38E6AB0132DE7F128 /* [CP] Embed Pods Frameworks */ = {
@@ -345,15 +345,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner/Pods-UrlShortner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-UrlShortner/Pods-UrlShortner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeCliBoilerplate/Pods-ReactNativeCliBoilerplate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrlShortner/Pods-UrlShortner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4CCCA246CE43530FCF69A6B /* [CP] Check Pods Manifest.lock */ = {
@@ -371,7 +371,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-UrlShortner-UrlShortnerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeCliBoilerplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* UrlShortnerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +422,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeCliBoilerplate */;
+			target = 13B07F861A680F5B00A75B9A /* UrlShortner */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,14 +430,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DFD31174313B4348865704C /* Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.debug.xcconfig */;
+			baseConfigurationReference = 1DFD31174313B4348865704C /* Pods-UrlShortner-UrlShortnerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeCliBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = UrlShortnerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,19 +449,19 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urlshortner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCliBoilerplate.app/ReactNativeCliBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrlShortner.app/UrlShortner";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADE9719A1F33E9406A6C0D76 /* Pods-ReactNativeCliBoilerplate-ReactNativeCliBoilerplateTests.release.xcconfig */;
+			baseConfigurationReference = ADE9719A1F33E9406A6C0D76 /* Pods-UrlShortner-UrlShortnerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeCliBoilerplateTests/Info.plist;
+				INFOPLIST_FILE = UrlShortnerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,21 +473,22 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urlshortner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCliBoilerplate.app/ReactNativeCliBoilerplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrlShortner.app/UrlShortner";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D5D8F697A0F4EE4321CC9B6 /* Pods-ReactNativeCliBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = 3D5D8F697A0F4EE4321CC9B6 /* Pods-UrlShortner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = ReactNativeCliBoilerplate/Info.plist;
+				INFOPLIST_FILE = UrlShortner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Url Shortner";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,8 +498,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeCliBoilerplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urlshortner;
+				PRODUCT_NAME = UrlShortner;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -507,12 +508,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F99EB630628A3E8CF3BDA62 /* Pods-ReactNativeCliBoilerplate.release.xcconfig */;
+			baseConfigurationReference = 6F99EB630628A3E8CF3BDA62 /* Pods-UrlShortner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ReactNativeCliBoilerplate/Info.plist;
+				INFOPLIST_FILE = UrlShortner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Url Shortner";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,8 +524,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeCliBoilerplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urlshortner;
+				PRODUCT_NAME = UrlShortner;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -669,7 +671,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeCliBoilerplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "UrlShortnerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -678,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeCliBoilerplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "UrlShortner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -687,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeCliBoilerplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "UrlShortner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

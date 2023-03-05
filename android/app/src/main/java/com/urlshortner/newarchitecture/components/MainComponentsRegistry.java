@@ -1,4 +1,4 @@
-package com.reactnativecliboilerplate.newarchitecture.components;
+package com.urlshortner.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
